@@ -1,0 +1,74 @@
+ dependent_variables:
+- header: 'M_{#tilde{#chi^{0}_{1}}} [GeV]'} 
+ qualifiers:
+  - {name: RE, value: P P --> STOP STOP}
+  - {name: SQRT(S), units: GeV, value: '13000.0'}
+  - {name: '', value: 'Columns give stop mass and LSP mass of the expected exclusion'}
+   values:
+  - {value: 12.6046}
+  - {value: 21.9369}
+  - {value: 21.918}
+  - {value: 17.5281}
+  - {value: 10.3621}
+  - {value: -14.8853}
+  - {value: -8.77641}
+  - {value: 10.4926}
+  - {value: 13.7324}
+  - {value: 25}
+  - {value: 29.8859}
+  - {value: 50}
+  - {value: 87.1484}
+  - {value: 100}
+  - {value: 113.019}
+  - {value: 175.425}
+  - {value: 218.535}
+  - {value: 233.835}
+  - {value: 251.216}
+  - {value: 251.555}
+  - {value: 251.159}
+  - {value: 253.209}
+  - {value: 252.116}
+  - {value: 250}
+  - {value: 246.945}
+  - {value: 247.276}
+  - {value: 240.85}
+  - {value: 236.019}
+  - {value: 232.42}
+  - {value: 215.912}
+  - {value: 207.973}
+  - {value: 0}
+ independent_variables:
+- header: 'M_{#tilde{t}} [GeV]'} 
+   values:
+  - {value: 189.804}
+  - {value: 228.063}
+  - {value: 250}
+  - {value: 292.528}
+  - {value: 310.362}
+  - {value: 330.163}
+  - {value: 567.321}
+  - {value: 589.507}
+  - {value: 600}
+  - {value: 618.236}
+  - {value: 620.114}
+  - {value: 631.795}
+  - {value: 637.148}
+  - {value: 639.771}
+  - {value: 636.981}
+  - {value: 625.425}
+  - {value: 600}
+  - {value: 583.835}
+  - {value: 551.216}
+  - {value: 550}
+  - {value: 548.841}
+  - {value: 525}
+  - {value: 522.884}
+  - {value: 510.08}
+  - {value: 503.055}
+  - {value: 500}
+  - {value: 484.15}
+  - {value: 463.981}
+  - {value: 450}
+  - {value: 409.088}
+  - {value: 382.973}
+  - {value: 175}

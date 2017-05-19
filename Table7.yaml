@@ -1,0 +1,111 @@
+dependent_variables:
+- header: {name: 'Lost lepton'}
+  qualifiers:
+  - {name: RE, value: P P --> STOP STOP}
+  - {name: SQRT(S), units: GeV, value: '13000.0'}
+  - {name: '', value: 'Columns give total background and observed event yields from 0l sbottom and top to chargino analysis.'}
+  values:
+  - errors:
+    - asymerror: {plus: 7.4, minus: -6.6}
+    value: 19.4
+  - errors:
+    - asymerror: {plus: 1.3, minus: -1.1}
+    value: 2.4
+  - errors:
+    - {symerror: 0.78}
+    value: 1.34
+  - errors:
+    - {symerror: 0.98}
+    value: 1.51
+  - errors:
+    - asymerror: {plus: 2.2, minus: -1.6}
+    value: 2.3
+  - errors:
+    - {symerror: 150}
+    value: 1310
+  - errors:
+    - {symerror: 89}
+    value: 760
+  - errors:
+    - {symerror: 67}
+    value: 314
+  - errors:
+    - {symerror: 341}
+    value: 122
+  - errors:
+    - {symerror: 15}
+    value: 35
+  - errors:
+    - asymerror: {plus: 7.9, minus: -7.3}
+    value: 7.3
+  - errors:
+    - asymerror: {plus: 0.71, minus: -0.52}
+    value: 0.71
+  - errors:
+    - {symerror: 13}
+    value: 79
+  - errors:
+    - {symerror: 6.8}
+    value: 45.8
+  - errors:
+    - {symerror: 2.8}
+    value: 16.2
+  - errors:
+    - {symerror: 1.6}
+    value: 8.1
+  - errors:
+    - {symerror: 0.8}
+    value: 3.66
+  - errors:
+    - {symerror: 2.9}
+    value: 6.5
+
+- header: {name: Observed yields}
+  qualifiers:
+  - {name: RE, value: P P --> STOP STOP}
+  - {name: SQRT(S), units: GeV, value: '13000.0'}
+  - {name: '', value: 'Columns give total background and observed event yields from 0l sbottom and top to chargino analysis.'}
+  values:
+  - {value: 12}
+  - {value: 3}
+  - {value: 1}
+  - {value: 1}
+  - {value: 0}
+  - {value: 1250}
+  - {value: 802}
+  - {value: 305}
+  - {value: 137}
+  - {value: 37}
+  - {value: 13}
+  - {value: 1}
+  - {value: 93}
+  - {value: 47}
+  - {value: 18}
+  - {value: 8}
+  - {value: 2}
+  - {value: 11}
+
+
+
+
+independent_variables:
+- header: {name: Search Region}
+  values:
+  - {value: 'Noncompressed,   $200$GeV$< H_{T,12} \leq 500$GeV, $250<m_{CT}<350$GeV'}
+  - {value: 'Noncompressed,   $200$GeV$< H_{T,12} \leq 500$GeV, $m_{CT}>350$GeV'}
+  - {value: 'Noncompressed,   $H_{T,12} > 500$GeV, $250<m_{CT}<350$GeV'}
+  - {value: 'Noncompressed,   $H_{T,12} > 500$GeV, $350<m_{CT}<500$GeV'}
+  - {value: 'Noncompressed,   $H_{T,12} > 500$GeV, $m_{CT}>500$GeV'}
+  - {value: 'Compressed,   $N_{b jets} =0, $250<E_{T}^{miss}<350$GeV'}
+  - {value: 'Compressed,   $N_{b jets} =0, $350<E_{T}^{miss}<550$GeV'}
+  - {value: 'Compressed,   $N_{b jets} =0, $450<E_{T}^{miss}<550$GeV'}
+  - {value: 'Compressed,   $N_{b jets} =0, $550<E_{T}^{miss}<700$GeV'}
+  - {value: 'Compressed,   $N_{b jets} =0, $700<E_{T}^{miss}<850$GeV'}
+  - {value: 'Compressed,   $N_{b jets} =0, $850<E_{T}^{miss}<1000$GeV'}
+  - {value: 'Compressed,   $N_{b jets} =0, $E_{T}^{miss}>1000$GeV'}
+  - {value: 'Compressed,   $N_{b jets} =1, $250<E_{T}^{miss}<350$GeV'}
+  - {value: 'Compressed,   $N_{b jets} =1, $350<E_{T}^{miss}<550$GeV'}
+  - {value: 'Compressed,   $N_{b jets} =1, $450<E_{T}^{miss}<550$GeV'}
+  - {value: 'Compressed,   $N_{b jets} =1, $550<E_{T}^{miss}<700$GeV'}
+  - {value: 'Compressed,   $N_{b jets} =1, $E_{T}^{miss}>700$GeV'}
+  - {value: 'Compressed,   $N_{b jets} =2$'}

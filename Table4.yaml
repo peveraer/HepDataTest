@@ -1,0 +1,61 @@
+dependent_variables:
+- header: {name: 'Lost lepton'}
+  qualifiers:
+  - {name: RE, value: P P --> STOP STOP}
+  - {name: SQRT(S), units: GeV, value: '13000.0'}
+  - {name: '', value: 'Columns give total background and observed event yields from 1l stop analysis.'}
+  values:
+  - errors:
+    - {symerror: 1.7}
+    value: 7.7
+  - errors:
+    - {symerror: 0.54}
+    value: 1.96
+  - errors:
+    - {symerror: 0.91}
+    value: 4.51
+  - errors:
+    - {symerror: 0.55}
+    value: 2.08
+  - errors:
+    - {symerror: 3.4}
+    value: 25.2
+  - errors:
+    - {symerror: 1.6}
+    value: 9.0
+  - errors:
+    - {symerror: 1.31}
+    value: 5.8
+  - errors:
+    - {symerror: 0.48}
+    value: 2.13
+  - errors:
+    - {symerror: 0.45}
+    value: 1.71
+- header: {name: Observed yields}
+  qualifiers:
+  - {name: RE, value: P P --> STOP STOP}
+  - {name: SQRT(S), units: GeV, value: '13000.0'}
+  - {name: '', value: 'Columns give total background and observed event yields from 1l stop analysis.'}
+  values:
+  - {value: 8}
+  - {value: 5}
+  - {value: 8}
+  - {value: 2}
+  - {value: 14}
+  - {value: 8}
+  - {value: 13}
+  - {value: 4}
+  - {value: 0}
+independent_variables:
+- header: {name: Search Region}
+  values:
+  - {value: '$2$ jets, $t_\text{mod}>6.4$, $250<E_{miss}^{T}<350GeV$'}
+  - {value: '$2$ jets, $t_\text{mod}>6.4$, $E_{miss}^{T}>350GeV$'}
+  - {value: '$3$ jets, $M_{T2}^{W}>200GeV$, $250<E_{miss}^{T}<350GeV$'}
+  - {value: '$3$ jets, $M_{T2}^{W}>200GeV$, $E_{miss}^{T}>350GeV$'}
+  - {value: '$\geq4$ jets, $M_{T2}^{W}\leq200GeV$, $250<E_{miss}^{T}<325'}
+  - {value: '$\geq4$ jets, $M_{T2}^{W}\leq200GeV$, $E_{miss}^{T}>325'}
+  - {value: '$\geq4$ jets, $M_{T2}^{W}>200GeV$, $250<E_{miss}^{T}<350GeV$'}
+  - {value: '$\geq4$ jets, $M_{T2}^{W}>200GeV$, $350<E_{miss}^{T}<450GeV$'}
+  - {value: '$\geq4$ jets, $M_{T2}^{W}>200GeV$, $E_{miss}^{T}>450GeV$'}

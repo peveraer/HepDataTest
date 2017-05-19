@@ -1,0 +1,68 @@
+comment: |
+  CERN-LHC. Searches are presented for direct production of top or bottom squark pairs in proton-proton collisions at the CERN LHC. Two searches, based on complementary techniques, are performed in all-jet final states that are characterized by a significant imbalance in transverse momentum. An additional search requires the presence of a charged lepton isolated from other activity in the event. The data were collected in 2015 at a centre-of-mass energy of 13\TeV with
+the CMS detector and correspond to an integrated luminosity of 2.3\fbinv. No statistically significant excess of events is found beyond the expected contribution from standard model processes. Exclusion limits are set in the context of simplified models of top or bottom squark pair production. Models with top and bottom squark masses up to 830 and 890\GeV, respectively, are probed for light neutralinos. For models with top squark masses of 675\GeV, neutralino masses up to 260\GeV are excluded at 95\% confidence level.
+
+---
+data_file: Table2.yaml
+description: |
+Observed and predicted background yields (with the total uncertainty) in the different search regions for the top squark search in the all-jet final state. 
+keywords:
+- name: reactions
+  values: [P P --> STOP STOP]
+- name: observables
+  values: [N]
+- name: phrases
+  values: [Inclusive, Supersymmetry, SUSY, Proton-Proton Scattering, Supersymmetry]
+- name: cmenergies
+  values: [13000.0]
+location: Data from Table 2)
+name: Table 2
+---
+data_file: Table4.yaml
+description: |
+Observed and predicted background yields (with the total uncertainty) in the different search regions for the top squark search in the single-lepton final state. 
+keywords:
+- name: reactions
+  values: [P P --> STOP STOP]
+- name: observables
+  values: [N]
+- name: phrases
+  values: [Inclusive, Supersymmetry, SUSY, Proton-Proton Scattering, Supersymmetry]
+- name: cmenergies
+  values: [13000.0]
+location: Data from Table 4)
+name: Table 4
+---
+data_file: Table7.yaml
+description: |
+Observed and predicted background yields (with the total uncertainty) in the different search regions for the bottom squark search and the top squark search with top squarks decaying to charm quarks and an LSP. 
+keywords:
+- name: reactions
+  values: [P P --> STOP STOP, P P --> SBOTTOM SBOTTOM]
+- name: observables
+  values: [N]
+- name: phrases
+  values: [Inclusive, Supersymmetry, SUSY, Proton-Proton Scattering, Supersymmetry]
+- name: cmenergies
+  values: [13000.0]
+location: Data from Table 7)
+name: Table 7
+---
+additional_resources:
+- {description: Image file, location: /resource/1459054/figFigure10.png} //NEEDS TO BE FIXED
+- {description: Thumbnail image file, location: /resource/1459054/thumb_figFigure10.png}
+data_file: Table4.yaml
+description: |
+  Interpretation of results in the  model. The colored regions show the upper limits (95\% CL) on the production cross section for $pp\rightarrow \tilde{g}\tilde{g},\tilde{g}\rightarrow t\bar{t}\tilde{\chi}^0_1$ in the $m_{\tilde{g}}$-$m_{\tilde{\chi}^0_1}$ plane.
+keywords:
+- name: reactions
+  values: [P P --> GLUINO GLUINO X]
+- name: observables
+  values: [CLS]
+- name: phrases
+  values: [Inclusive, Supersymmetry, SUSY, Proton-Proton Scattering, Supersymmetry]
+- name: cmenergies
+  values: [13000.0]
+location: Data from Figure 10
+name: Table 4
+table_doi: !!python/unicode '10.17182/hepdata.77195.v1/t4'
